@@ -1,4 +1,5 @@
-
+# Law of large number on R: [ChestSizes] data
+# Enjoy this simulation.
 install.packages("HistData")
 library(HistData)
 data("ChestSizes")
