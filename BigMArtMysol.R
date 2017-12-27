@@ -13,7 +13,7 @@ apply(big_comb,2,function(x) sum(is.na(x)))
 # Item_Weight contains all the missing vales
 # Imputing vmedian values
 
-# big_train$Item_Weight[is.na(big_train$Item_Weight)] = 12.860 # Instead of manual or crude imputatuob we will use 
+# big_train$Item_Weight[is.na(big_train$Item_Weight)] = 12.860 # Instead of manual or crude imputation we will use 
 # KNN Imputation
 
 big_comb = kNN(data = big_comb,variable = c("Item_Weight"),impNA = T,trace = T) # We have succesfully imputed the values.
